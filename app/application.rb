@@ -9,7 +9,7 @@ class Application
     else
       resp.write "Good Morning"
     end
-    resp.write "The time is now: #{time.hour}:#{time.minute}"
+    resp.write "The time is now: #{time.hour}:#{time.min}"
 
     resp.finish
   end
