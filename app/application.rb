@@ -1,6 +1,6 @@
 class Application
   def call(env)
-    resp = Rack::Respone.new
+    resp = Rack::Response.new
 
     # time = Time.new
     # resp.write "Time is: #{Time.new}"
