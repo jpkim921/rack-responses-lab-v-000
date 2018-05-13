@@ -3,6 +3,8 @@ class Application
 
     time = Time.new
 
+
+
     resp.finish
   end
 end
