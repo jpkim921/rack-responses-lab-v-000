@@ -1,8 +1,8 @@
 class Application
   def call(env)
+    resp = Rack::Respone.new
 
     # time = Time.new
-    resp = Rack::Respone.new
     resp.write "Time is: #{Time.new}"
 
     resp.finish
