@@ -3,7 +3,7 @@ class Application
     resp = Rack::Response.new
 
     # time = Time.now.localtime("-04:00")
-    time - Time.now
+    time = Time.now
 
     if time.hour <=12
       resp.write "Good Morning\n"
