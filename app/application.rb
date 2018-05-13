@@ -3,7 +3,7 @@ class Application
 
     time = Time.new
 
-
+    resp.write "Time is: #{time}"
 
     resp.finish
   end
