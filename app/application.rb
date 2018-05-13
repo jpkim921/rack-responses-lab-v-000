@@ -5,9 +5,9 @@ class Application
     time = Time.now.localtime("-04:00")
 
     if time.hour <=12
-      resp.write "Good Morning"
+      resp.write "Good Morning\n"
     else
-      resp.write "Good Morning"
+      resp.write "Good Afternoon\n"
     end
     resp.write "The time is now: #{time.hour}:#{time.min}"
 
